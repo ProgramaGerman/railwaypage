@@ -1,6 +1,5 @@
 [build]
-builder = "nixpacks"
-buildCommand = "npm cache clean --force && npm ci && npm run build"
+builder = "dockerfile"
 
 [deploy]
 startCommand = "npm run preview"
